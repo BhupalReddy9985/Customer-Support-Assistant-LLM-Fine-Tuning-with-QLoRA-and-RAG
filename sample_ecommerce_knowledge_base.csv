@@ -1,0 +1,138 @@
+doc_id,category,title,content
+KB001,REFUND,Sample Refund Policy,"
+        Fictional Sample Store - Refund Policy
+
+        Customers may request a refund within 7 calendar days
+        after receiving an eligible product.
+
+        Products must be unused and returned with their original
+        packaging and accessories.
+
+        Refund eligibility is subject to product inspection.
+        Approved refunds are returned through the original
+        payment method.
+
+        The sample processing period is 5 to 7 business days
+        after the returned product passes inspection.
+        "
+KB002,REFUND,Sample Refund Status,"
+        Customers can check refund progress through the sample
+        store's official order history page.
+
+        Refund stages are:
+        1. Refund requested.
+        2. Return received.
+        3. Product inspection.
+        4. Refund approved.
+        5. Refund processed.
+
+        Bank processing times may vary. The assistant cannot
+        access individual refund records.
+        "
+KB003,CANCEL,Sample Order Cancellation Policy,"
+        Customers may request cancellation before an order
+        is dispatched.
+
+        Orders that have already been dispatched cannot be
+        cancelled through the standard cancellation process.
+        Customers may instead review the sample return policy.
+
+        Cancellation requests are subject to order status.
+        "
+KB004,CANCEL,Sample Cancellation Fees,"
+        Fictional Sample Store does not charge a cancellation
+        fee for orders cancelled before dispatch.
+
+        Orders already dispatched are not eligible for
+        standard cancellation.
+
+        These are demonstration rules only.
+        "
+KB005,SHIPPING,Sample Shipping Address Policy,"
+        Customers may request an address update before
+        their order is dispatched.
+
+        Address changes may not be possible after dispatch.
+
+        Customers should review their address carefully
+        before confirming an order.
+
+        The assistant cannot directly modify customer accounts.
+        "
+KB006,SHIPPING,Sample Shipping Methods,"
+        Fictional Sample Store provides two shipping options.
+
+        Standard Shipping: Estimated delivery in 5 to 7
+        business days.
+
+        Express Shipping: Estimated delivery in 2 to 3
+        business days.
+
+        Delivery estimates may vary by destination.
+        "
+KB007,DELIVERY,Sample Delivery Tracking,"
+        Customers can review delivery progress using the
+        tracking reference provided in their order confirmation.
+
+        Common tracking statuses include:
+        Order confirmed.
+        Packed.
+        Dispatched.
+        In transit.
+        Out for delivery.
+        Delivered.
+
+        The assistant cannot access live shipment records.
+        "
+KB008,PAYMENT,Sample Accepted Payment Methods,"
+        Fictional Sample Store accepts:
+        Credit cards.
+        Debit cards.
+        UPI.
+        Net banking.
+
+        Payment availability may depend on the customer's
+        payment provider and transaction conditions.
+        "
+KB009,PAYMENT,Sample Payment Failure Guidance,"
+        If a payment fails, customers should first check
+        whether money was deducted from their bank account.
+
+        If money was deducted but the order was not confirmed,
+        customers should retain their transaction reference
+        and contact the official support channel.
+
+        Never share passwords, PINs, or OTPs.
+        "
+KB010,ACCOUNT,Sample Account Registration,"
+        Customers can create an account using the sample
+        store's registration page.
+
+        Required information:
+        Name.
+        Email address.
+        Password.
+
+        Customers should use a valid email address and
+        create a strong password.
+        "
+KB011,ACCOUNT,Sample Password Recovery,"
+        Customers who forget their password can use the
+        Forgot Password option on the sample store's
+        sign-in page.
+
+        A password reset link is sent to the registered
+        email address.
+
+        Customers should never share their password,
+        PIN, or OTP with anyone.
+        "
+KB012,SUBSCRIPTION,Sample Newsletter Subscription,"
+        Customers can manage newsletter preferences through
+        the sample store's newsletter subscription settings.
+
+        Customers can unsubscribe using the unsubscribe
+        option included in newsletter emails.
+
+        Changes may take a short time to take effect.
+        "

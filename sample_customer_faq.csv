@@ -1,0 +1,61 @@
+faq_id,category,question,answer
+FAQ001,REFUND,How many days do I have to request a refund?,Eligible products can be submitted for a refund request within 7 calendar days after delivery.
+FAQ002,REFUND,Can I get my money back after returning a product?,An approved refund is returned through the original payment method after the returned product passes inspection.
+FAQ003,REFUND,How long does a refund take?,The sample refund processing period is 5 to 7 business days after product inspection and approval.
+FAQ004,REFUND,What happens after I request a refund?,"The refund process includes return receipt, product inspection, approval and refund processing."
+FAQ005,REFUND,Can I get a refund for a used product?,The sample policy requires eligible products to be unused and returned with original packaging and accessories.
+FAQ006,REFUND,Where can I check my refund status?,Customers can review refund progress through the sample store's official order history page.
+FAQ007,REFUND,My refund is taking too long. What should I do?,Check the refund stage in order history. Bank processing times may vary. Contact the official support channel if you need account-specific assistance.
+FAQ008,REFUND,Is every returned product eligible for a refund?,No. Refund eligibility depends on the sample return conditions and product inspection.
+FAQ009,CANCEL,Can I cancel my order before it is shipped?,Customers may request cancellation before an order is dispatched.
+FAQ010,CANCEL,Can I cancel an order after dispatch?,Standard cancellation is unavailable after dispatch. Customers may review the sample return policy.
+FAQ011,CANCEL,Do you charge a cancellation fee?,The fictional sample store does not charge a cancellation fee for orders cancelled before dispatch.
+FAQ012,CANCEL,What happens if my order has already been dispatched?,Standard cancellation is unavailable after dispatch. Customers may review the sample return policy.
+FAQ013,CANCEL,When can I request order cancellation?,A cancellation request may be made before the order is dispatched.
+FAQ014,CANCEL,Can I withdraw my order without paying a fee?,The sample store does not charge a cancellation fee for orders cancelled before dispatch.
+FAQ015,SHIPPING,Can I change my shipping address?,Customers may request an address update before dispatch. Changes may not be possible after dispatch.
+FAQ016,SHIPPING,How can I add a new delivery address?,Customers should use the sample store's official account or order-management channel to manage their address.
+FAQ017,SHIPPING,Can I edit my address after placing an order?,An address update may be requested before dispatch. It may not be possible after dispatch.
+FAQ018,SHIPPING,What shipping options are available?,The fictional sample store offers Standard Shipping and Express Shipping.
+FAQ019,SHIPPING,How long does standard shipping take?,The estimated Standard Shipping time is 5 to 7 business days.
+FAQ020,SHIPPING,How long does express shipping take?,The estimated Express Shipping time is 2 to 3 business days.
+FAQ021,SHIPPING,Can I change my delivery address after dispatch?,Address changes may not be possible after dispatch. Customers should contact the official support channel for guidance.
+FAQ022,DELIVERY,How can I track my package?,Customers can use the tracking reference in their order confirmation to review delivery progress.
+FAQ023,DELIVERY,What does in transit mean?,In transit means the shipment is moving through the delivery network.
+FAQ024,DELIVERY,What are the different delivery statuses?,"Sample statuses include Order confirmed, Packed, Dispatched, In transit, Out for delivery and Delivered."
+FAQ025,DELIVERY,Where can I find my tracking reference?,The sample store provides the tracking reference in the order confirmation.
+FAQ026,DELIVERY,What does out for delivery mean?,Out for delivery means the shipment has reached the delivery stage and is scheduled for delivery.
+FAQ027,DELIVERY,Can you check my live delivery status?,The assistant cannot access live shipment records. Customers can use their tracking reference through the official tracking channel.
+FAQ028,PAYMENT,Which payment methods do you accept?,"The fictional sample store accepts credit cards, debit cards, UPI and net banking."
+FAQ029,PAYMENT,Can I pay using UPI?,Yes. UPI is included among the sample store's accepted payment methods.
+FAQ030,PAYMENT,Do you accept credit cards?,Yes. Credit cards are included among the sample store's accepted payment methods.
+FAQ031,PAYMENT,My payment failed. What should I do?,"Check whether money was deducted. If it was deducted but the order was not confirmed, retain the transaction reference and contact official support."
+FAQ032,PAYMENT,Money was deducted but my order was not placed. What now?,Retain your transaction reference and contact official support. The assistant cannot investigate individual transactions.
+FAQ033,PAYMENT,Is net banking available?,Yes. Net banking is included among the sample store's accepted payment methods.
+FAQ034,PAYMENT,Should I share my OTP to solve a payment issue?,"No. Never share your password, PIN or OTP."
+FAQ035,PAYMENT,Can you verify whether my payment was successful?,The assistant cannot access individual payment records. Check your bank or payment-provider transaction status.
+FAQ036,ACCOUNT,How can I create an account?,"Customers can register using the sample store's registration page with their name, email address and password."
+FAQ037,ACCOUNT,What details are needed to register?,"The sample registration process requires a name, email address and password."
+FAQ038,ACCOUNT,I forgot my password. How can I recover it?,Use the Forgot Password option on the sample store's sign-in page. A reset link is sent to the registered email address.
+FAQ039,ACCOUNT,Where is the forgot password option?,The Forgot Password option is available on the sample store's sign-in page.
+FAQ040,ACCOUNT,How do I reset my account password?,Use the Forgot Password option and follow the reset link sent to your registered email address.
+FAQ041,ACCOUNT,Can I share my password with customer support?,"No. Never share your password, PIN or OTP with anyone."
+FAQ042,ACCOUNT,I cannot register. What should I check?,Check that your email address is valid and that you have entered the required registration details. Contact official support if the problem continues.
+FAQ043,ACCOUNT,How do I update my personal account information?,The assistant cannot access or modify customer accounts. Use the sample store's official account-management channel.
+FAQ044,SUBSCRIPTION,How can I unsubscribe from the newsletter?,Use the unsubscribe option included in the sample store's newsletter emails.
+FAQ045,SUBSCRIPTION,How do I stop promotional emails?,Use the unsubscribe option in newsletter emails or manage preferences through subscription settings.
+FAQ046,SUBSCRIPTION,Where can I manage newsletter preferences?,Customers can manage newsletter preferences through the sample store's subscription settings.
+FAQ047,SUBSCRIPTION,Will unsubscribing take effect immediately?,Subscription changes may take a short time to take effect.
+FAQ048,SUBSCRIPTION,Can I stop receiving marketing emails?,Customers can use the newsletter unsubscribe option or manage their subscription preferences.
+FAQ049,CONTACT,Can I speak to a human support agent?,The assistant cannot transfer calls or connect customers to an agent. Consult the verified official support channel.
+FAQ050,CONTACT,How do I contact customer support?,Consult the fictional store's verified official support channel. No specific phone number or email is provided in this sample knowledge base.
+FAQ051,FEEDBACK,How can I submit feedback about a product?,"Customers can prepare feedback describing their experience, what they liked and what could be improved. The assistant cannot publish it on their behalf."
+FAQ052,FEEDBACK,Can you help me write a product review?,"Yes. The assistant can help organize the customer's experience into a clear product review, but cannot publish it."
+FAQ053,FEEDBACK,How can I report a problem with my order?,"Prepare the order reference and a description of the problem, then contact the official support channel. Do not share passwords, PINs or OTPs."
+FAQ054,COMPLAINT,How do I file a complaint?,Customers can organize the complaint details and submit them through the official support channel. The assistant cannot officially submit or resolve complaints.
+FAQ055,COMPLAINT,Can you investigate my complaint?,The assistant cannot access company systems or investigate complaints. Contact the official support channel.
+FAQ056,COMPLAINT,What information should I include in a complaint?,"Include a clear description of the issue, relevant order reference and supporting details. Do not include passwords, PINs or OTPs."
+FAQ057,ORDER,How can I place an order?,"Customers can browse products, select an item, review the cart and follow the sample store's official checkout process."
+FAQ058,ORDER,Can you place an order for me?,The assistant cannot place orders. Customers should use the sample store's official shopping and checkout process.
+FAQ059,ORDER,How do I check my order confirmation?,Review the order confirmation provided through the sample store's official order channel.
+FAQ060,ORDER,Can I change my order after confirmation?,Order changes depend on the order's status. Contact the official support channel before dispatch.
