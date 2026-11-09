@@ -92,19 +92,23 @@ Knowledge base ─► MiniLM embeddings ─► FAISS index                    �
 | Max sequence length | 512 |
 | Training subset | 1,500 examples (200 validation) |
 | Epochs | 1 |
-| Batch size / gradient accumulation | 1 / 4 |
+| Per-device training batch size | 1 |
+| Gradient accumulation steps | Confirm from final Colab training cell |
 | Learning rate | 2e-4 |
 | Final training loss | 0.503 |
-| Training time | about 25 minutes on a Tesla T4 |
+| Training time | Approximately 25 minutes on Tesla T4 |
 
 ---
-
 ## 📚 RAG Component
 
-- **Knowledge base:** 72 records describing a fictional sample store (refund, cancellation, delivery, and similar policies)
-- **Embeddings:** `all-MiniLM-L6-v2` (384 dimensions), stored in a FAISS index
-- **Retrieval:** the top-3 documents are inserted into the prompt as context
-- **Example:** the query "How many days do I have to request a refund?" retrieves the refund-policy record first (similarity about 0.78)
+- **Knowledge Base:** 72 records containing sample customer support policies and FAQs for a fictional e-commerce store.
+- **Embeddings:** `all-MiniLM-L6-v2` (384 dimensions).
+- **Vector Database:** FAISS using `IndexFlatIP` for similarity search.
+- **Retrieval:** Retrieves the top 10 relevant candidates and selects the top 3 documents for the LLM prompt.
+- **Response Generation:** The base or fine-tuned Qwen3-4B model generates responses using the retrieved knowledge.
+- **Safeguards:** Rule-based checks detect selected unsupported customer support actions and claims.
+
+The RAG pipeline helps the model use external knowledge instead of relying only on information learned during training.
 
 ---
 
@@ -129,25 +133,36 @@ The base and fine-tuned models were evaluated using 12 customer support question
 ## 📁 Repository Contents
 
 | File | Description |
-|------|-------------|
-| `Customer_Support_Assistant_LLM_Fine_Tuning_with_QLoRA_and_RAG_.ipynb` | Main Colab notebook |
-| `combined_retrieval_knowledge_base.csv` | Knowledge base used for retrieval |
-| `sample_customer_faq.csv` | Sample FAQ data |
-| `sample_ecommerce_knowledge_base.csv` | Sample e-commerce knowledge base |
-| `base_vs_finetuned_rag_comparison.csv` | Base vs fine-tuned answer comparison |
-| `post_safeguard_manual_evaluation.csv` | Manual evaluation after adding safeguards |
+|---|---|
+| `Customer_Support_Assistant_LLM_Fine_Tuning_with_QLoRA_and_RAG_.ipynb` | Main Google Colab notebook containing implementation and saved outputs |
+| `README.md` | Project documentation, architecture, methodology, and results |
+
+**Additional project artifacts:** The implementation uses customer support knowledge-base CSVs, saved LoRA adapters, FAISS artifacts, and evaluation results stored in Google Drive. These can be added to the repository or linked separately when available.
 
 ---
 
 ## ▶️ How to Run
 
-1. Open the notebook in **Google Colab** and choose **Runtime → Change runtime type → T4 GPU**.
-2. Install dependencies:
+1. Open the notebook in **Google Colab**.
+2. Select **Runtime → Change runtime type → T4 GPU**.
+3. Install the required dependencies:
+
    ```bash
    pip install transformers peft trl bitsandbytes datasets accelerate scikit-learn sentence-transformers faiss-cpu
    ```
-3. Some cells load files from Google Drive (such as the saved LoRA adapter and knowledge base). Update the `/content/drive/MyDrive/...` paths to your own locations, or upload the CSV files from this repository.
-4. Run the notebook from top to bottom.
+
+4. Mount Google Drive if using saved model adapters, datasets, or knowledge-base files.
+5. Update the Google Drive paths (`/content/drive/MyDrive/...`) to match your environment.
+6. Follow the notebook sections in order:
+   - Dataset preprocessing
+   - QLoRA fine-tuning
+   - Knowledge-base preparation
+   - Embeddings and FAISS indexing
+   - RAG response generation
+   - Safeguard implementation
+   - Model evaluation
+
+**Note:** The notebook preserves original Google Colab outputs from the completed experiments. Some cells depend on saved files or variables from earlier sessions, so a fresh end-to-end execution may require additional setup.
 
 ---
 
@@ -179,3 +194,8 @@ This project demonstrates how LLM fine-tuning, RAG, vector search, and response 
 The experiments also highlight the importance of evaluating fine-tuned models for correctness, groundedness, helpfulness, and safety rather than relying on training loss alone.
 
 ---
+## 👤 Author
+
+**Bhupal Reddy**
+
+GitHub: [BhupalReddy9985](https://github.com/BhupalReddy9985)
